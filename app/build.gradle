@@ -33,12 +33,17 @@ android {
 }
 
 dependencies {
-
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.7.0' //TODO: try upgrade
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
-    implementation 'androidx.preference:preference:1.1.+'
+    implementation 'androidx.preference:preference:1.1.+' //TODO: try upgrade
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.github.Cleymax:TrelloAPI-Kotlin:ad0e0f6072' //TODO: remove
+//    implementation 'com.github.ascclemens:khttp:master' //TODO: remove
+    implementation "io.karn:khttp-android:0.1.0"
+//    implementation 'com.github.json-path.JsonPath:json-path:2.2.0' //TODO add this
+    api("com.google.code.gson:gson:2.8.6")
 }
+
